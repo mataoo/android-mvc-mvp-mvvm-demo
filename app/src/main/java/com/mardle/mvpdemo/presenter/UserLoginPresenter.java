@@ -4,10 +4,10 @@ package com.mardle.mvpdemo.presenter;/**
 
 import android.os.Handler;
 
-import com.mardle.mvpdemo.bean.User;
-import com.mardle.mvpdemo.biz.IUserBiz;
-import com.mardle.mvpdemo.biz.OnLoginListener;
-import com.mardle.mvpdemo.biz.UserBiz;
+import com.mardle.mvpdemo.model.bean.User;
+import com.mardle.mvpdemo.model.biz.IUserBiz;
+import com.mardle.mvpdemo.model.biz.OnLoginListener;
+import com.mardle.mvpdemo.model.biz.UserBiz;
 import com.mardle.mvpdemo.view.IUserLoginView;
 
 /**

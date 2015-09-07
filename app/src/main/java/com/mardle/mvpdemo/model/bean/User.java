@@ -1,4 +1,4 @@
-package com.mardle.mvpdemo.bean;/**
+package com.mardle.mvpdemo.model.bean;/**
  * Created by matao on 6/23/15.
  */
 

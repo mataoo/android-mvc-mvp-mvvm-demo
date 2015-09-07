@@ -1,4 +1,4 @@
-package com.mardle.mvpdemo;
+package com.mardle.mvpdemo.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,9 +8,9 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.mardle.mvpdemo.bean.User;
+import com.mardle.mvpdemo.R;
+import com.mardle.mvpdemo.model.bean.User;
 import com.mardle.mvpdemo.presenter.UserLoginPresenter;
-import com.mardle.mvpdemo.view.IUserLoginView;
 
 
 public class UserLoginActivity extends AppCompatActivity implements IUserLoginView {

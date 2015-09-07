@@ -1,4 +1,4 @@
-package com.mardle.mvpdemo.biz;/**
+package com.mardle.mvpdemo.model.biz;/**
  * Created by matao on 6/23/15.
  */
 
