@@ -1,4 +1,4 @@
-package mardle.com.login.login;
+package mardle.com.login.login.model;
 
 import mardle.com.login.login.model.User;
 
