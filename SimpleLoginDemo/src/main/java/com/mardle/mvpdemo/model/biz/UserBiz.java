@@ -26,9 +26,9 @@ public class UserBiz implements IUserBiz {
                     User user = new User();
                     user.setUsername(username);
                     user.setPassword(password);
-                    onLoginListener.loginSuccess(user);
+                    onLoginListener.onLoginSuccess(user);
                 } else {
-                    onLoginListener.loginFailure();
+                    onLoginListener.onLoginFailure();
                 }
             }
         }.start();

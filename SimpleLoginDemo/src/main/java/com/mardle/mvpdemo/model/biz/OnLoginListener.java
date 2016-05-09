@@ -10,7 +10,7 @@ import com.mardle.mvpdemo.model.bean.User;
  * Time: 14:27
  */
 public interface OnLoginListener {
-    void loginSuccess(User user);
+    void onLoginSuccess(User user);
 
-    void loginFailure();
+    void onLoginFailure();
 }

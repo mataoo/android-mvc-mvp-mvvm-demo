@@ -29,22 +29,22 @@ public class UserLoginPresenter {
         userLoginView.showLoading();
         userBiz.login(userLoginView.getUserName(), userLoginView.getPassword(), new OnLoginListener() {
             @Override
-            public void loginSuccess(final User user) {
+            public void onLoginSuccess(final User user) {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        userLoginView.toMainActivity(user);
+                        userLoginView.showSuccess(user);
                         userLoginView.hideLoading();
                     }
                 });
             }
 
             @Override
-            public void loginFailure() {
+            public void onLoginFailure() {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        userLoginView.showFailError();
+                        userLoginView.showFailure();
                         userLoginView.hideLoading();
                     }
                 });
