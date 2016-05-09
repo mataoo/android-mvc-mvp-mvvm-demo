@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
         setContentView(R.layout.activity_login);
         ButterKnife.inject(this);
 
-        mPresenter = new LoginPresenter(this);
+        new LoginPresenter(this);
 
         mLoginBt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
 
     @Override
     public void setPresenter(LoginContract.Presenter presenter) {
-//        mPresenter = presenter;
+        mPresenter = presenter;
     }
 
     @Override
