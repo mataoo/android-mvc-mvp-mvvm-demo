@@ -1,1 +1,2 @@
+include ':mvc-login'
 include ':SimpleLoginDemo'
