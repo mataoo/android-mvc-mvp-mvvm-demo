@@ -1,3 +1,4 @@
 include ':mvc-login'
 include ':improved-mvc-login'
 include ':mvp-login'
+include ':mvvm-login'
