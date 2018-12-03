@@ -1,1 +1,1 @@
-include ':SimpleLoginDemo', ':LoginDemo'
+include ':SimpleLoginDemo'
